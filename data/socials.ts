@@ -28,8 +28,8 @@ export const socialLinks: SocialLink[] = [
   },
   {
     platform: "Email",
-    url: "mailto:alex.morgan@example.com",
+    url: "mailto:rafioulhasan2@gmail.com",
     label: "Email",
-    username: "alex.morgan@example.com"
+    username: "rafioulhasan2@gmail.com"
   }
 ];

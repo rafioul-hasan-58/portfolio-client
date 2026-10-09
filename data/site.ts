@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
   ],
   avatar: "/images/avatar.svg",
   location: "San Francisco, CA",
-  email: "alex.morgan@example.com",
+  email: "rafioulhasan2@gmail.com",
   metadata: {
     title: "Rafioul Hasan Sourob | Software Engineer & Researcher",
     description: "Personal portfolio of Rafioul Hasan Sourob – Software Engineer specializing in backend systems, distributed databases, and high-scale architecture.",
