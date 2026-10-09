@@ -9,9 +9,9 @@ export const socialLinks: SocialLink[] = [
   },
   {
     platform: "LinkedIn",
-    url: "https://www.linkedin.com/in/rafioul-hasan",
+    url: "https://www.linkedin.com/in/rafioul-hasan-sourob/",
     label: "LinkedIn",
-    username: "rafioul-hasan"
+    username: "rafioul-hasan-sourob"
   },
   {
     platform: "Email",
