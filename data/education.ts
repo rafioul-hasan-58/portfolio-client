@@ -4,17 +4,14 @@ import { EducationItem } from "@/types";
 export const educationData: EducationItem[] = [
   {
     id: "edu-1",
-    degree: "B.Sc. in Computer Science and Engineering",
-    institution: "University of Technology & Engineering",
-    institutionUrl: "https://example.edu",
-    location: "City, Country",
-    period: "2020 – 2024",
-    grade: "CGPA: 3.85 / 4.00",
-    description: "Major in Systems and Algorithms. Coursework included Operating Systems, Database Management Systems, Distributed Computing, Algorithm Design, and Artificial Intelligence.",
+    degree: "Diploma in Engineering in Computer Science and Technology",
+    institution: "Mymensingh Polytechnic Institute",
+    location: "Mymensingh, Bangladesh",
+    period: "Ongoing",
+    description: "Focusing on software development, data structures, algorithms, database management systems, and computer networking.",
     highlights: [
-      "Dean's Merit List for Academic Excellence (all semesters)",
-      "Undergraduate Thesis on High-Throughput Vector Indexing Engines",
-      "Executive Member of Competitive Programming Club"
+      "Specializing in Backend Engineering, API Architecture, and Distributed Systems",
+      "Building practical AI-powered systems and scalable full-stack applications"
     ]
   },
   {
