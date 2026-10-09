@@ -1,29 +1,28 @@
 import { SkillCategory } from "@/types";
 
-// TODO: replace with my info
 export const skillCategories: SkillCategory[] = [
   {
     category: "Languages",
-    skills: ["TypeScript", "JavaScript", "Python", "Go", "C++", "SQL", "Bash"]
+    skills: ["TypeScript", "JavaScript"]
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express", "Next.js", "FastAPI", "gRPC", "REST APIs"]
+    skills: ["Node.js", "Express.js", "RESTful APIs", "System Architecture"]
   },
   {
     category: "Frontend",
-    skills: ["React", "Next.js", "Tailwind CSS", "HTML5", "CSS3"]
+    skills: ["React", "Next.js", "Redux", "Tailwind CSS"]
   },
   {
     category: "Data Systems",
-    skills: ["PostgreSQL", "Redis", "MongoDB", "Elasticsearch", "ClickHouse"]
+    skills: ["MongoDB", "PostgreSQL", "Prisma", "Mongoose"]
   },
   {
     category: "Tools & DevOps",
-    skills: ["Docker", "Kubernetes", "Git", "GitHub Actions", "Terraform", "Linux"]
+    skills: ["Git", "Docker", "Nginx", "PM2", "GitHub Actions", "Coolify", "Openclaw"]
   },
   {
-    category: "Cloud Services",
-    skills: ["AWS (S3, EC2, Lambda)", "GCP", "Vercel", "Cloudflare"]
+    category: "Spoken Languages",
+    skills: ["Bangla (Native)", "English", "Hindi", "German (A1)"]
   }
 ];

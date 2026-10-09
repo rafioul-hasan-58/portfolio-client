@@ -1,31 +1,27 @@
 import { EducationItem } from "@/types";
 
-// TODO: replace with my info
 export const educationData: EducationItem[] = [
   {
-    id: "edu-1",
-    degree: "Diploma in Engineering in Computer Science and Technology",
+    id: "edu-mpi",
+    degree: "Diploma In Engineering",
     institution: "Mymensingh Polytechnic Institute",
     location: "Mymensingh, Bangladesh",
-    period: "Ongoing",
-    description: "Focusing on software development, data structures, algorithms, database management systems, and computer networking.",
+    period: "Mar 2024 – Present",
+    description: "Department of Computer Science & Technology. Pursuing core studies in software engineering, data structures, algorithms, databases, and computer networks.",
     highlights: [
-      "Specializing in Backend Engineering, API Architecture, and Distributed Systems",
-      "Building practical AI-powered systems and scalable full-stack applications"
+      "Computer Science & Technology",
+      "Specializing in Backend Engineering, API Development & Distributed Systems"
     ]
   },
   {
-    id: "edu-2",
-    degree: "Higher Secondary Certificate (Science)",
-    institution: "Metropolitan Science Academy",
-    institutionUrl: "https://example.edu",
-    location: "City, Country",
-    period: "2018 – 2020",
-    grade: "GPA: 5.00 / 5.00",
-    description: "Specialized in Higher Mathematics, Physics, Chemistry, and Information Technology.",
+    id: "edu-ssc",
+    degree: "Secondary School Certificate (SSC)",
+    institution: "Gosinga High School, Gazipur",
+    location: "Gazipur, Bangladesh",
+    period: "Jan 2017 – Jan 2022",
+    description: "Secondary education with a concentration in Science, including Higher Mathematics, Physics, Chemistry, and Information Technology.",
     highlights: [
-      "Ranked Top 1% in National Board Examinations",
-      "National Science Olympiad Division Winner"
+      "Group: Science"
     ]
   }
 ];

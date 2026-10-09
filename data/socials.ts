@@ -1,35 +1,28 @@
 import { SocialLink } from "@/types";
 
-// TODO: replace with my info
 export const socialLinks: SocialLink[] = [
   {
-    platform: "LinkedIn",
-    url: "https://www.linkedin.com/in/example-profile",
-    label: "LinkedIn",
-    username: "alexmorgan"
-  },
-  {
     platform: "GitHub",
-    url: "https://github.com/example-handle",
+    url: "https://github.com/rafioul-hasan-58",
     label: "GitHub",
-    username: "alexmorgan"
+    username: "rafioul-hasan-58"
   },
   {
-    platform: "Codeforces",
-    url: "https://codeforces.com/profile/example-handle",
-    label: "Codeforces",
-    username: "alex_coder"
-  },
-  {
-    platform: "Twitter / X",
-    url: "https://x.com/example-handle",
-    label: "Twitter",
-    username: "alex_morgan"
+    platform: "LinkedIn",
+    url: "https://www.linkedin.com/in/rafioul-hasan",
+    label: "LinkedIn",
+    username: "rafioul-hasan"
   },
   {
     platform: "Email",
     url: "mailto:rafioulhasan2@gmail.com",
     label: "Email",
     username: "rafioulhasan2@gmail.com"
+  },
+  {
+    platform: "Phone",
+    url: "tel:+8801752966422",
+    label: "Phone",
+    username: "+8801752966422"
   }
 ];

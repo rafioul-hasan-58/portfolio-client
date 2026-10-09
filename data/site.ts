@@ -12,7 +12,7 @@ export const siteConfig: SiteConfig = {
     "Beyond tech, I’m interested in movies, anime, reading, and exploring new technologies."
   ],
   avatar: "/images/avatar.svg",
-  location: "Bangladesh",
+  location: "Dhaka, Bangladesh",
   email: "rafioulhasan2@gmail.com",
   metadata: {
     title: "Rafioul Hasan Sourob | Backend-Focused Full Stack Developer",

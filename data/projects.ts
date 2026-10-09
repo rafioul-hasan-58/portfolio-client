@@ -1,35 +1,24 @@
 import { ProjectItem } from "@/types";
 
-// TODO: replace with my info
 export const projectsData: ProjectItem[] = [
   {
-    id: "proj-1",
-    title: "Algorithm Visualizer",
-    description: "An interactive web application designed to help students and developers visualize sorting, pathfinding, and graph traversal algorithms step-by-step with adjustable execution speed.",
-    technologies: ["React", "TypeScript", "Canvas API", "Tailwind CSS"],
-    year: "2024",
-    githubUrl: "https://github.com/example-handle/algorithm-visualizer",
-    liveUrl: "https://algorithm-visualizer.example.com",
+    id: "skillquix",
+    title: "Skillquix – Career Growth & Roadmap Platform",
+    description: "A comprehensive career growth and roadmap platform featuring an AI-powered resume extraction system, intelligent mentorship and gig matching capabilities, and built-in reflection and career progression tracking modules.",
+    technologies: ["Next.js", "React", "Node.js", "Express.js", "AI Integration", "MongoDB", "Tailwind CSS"],
+    year: "2025",
+    githubUrl: "https://github.com/rafioul-hasan-58",
+    liveUrl: "https://skillquix.vercel.app",
     featured: true
   },
   {
-    id: "proj-2",
-    title: "Lightweight Key-Value Store",
-    description: "An embeddable, append-only LSM-tree storage engine written in Go with write-ahead logging (WAL), SSTable compaction, and bloom filter lookups.",
-    technologies: ["Go", "LSM Tree", "Bloom Filters", "Concurrency"],
-    year: "2023",
-    githubUrl: "https://github.com/example-handle/lsm-kv-store",
-    liveUrl: undefined,
+    id: "speedx",
+    title: "SpeedX – Bike Shop Management System",
+    description: "An end-to-end management solution for bike retailers and workshops. Features real-time product listing and inventory control, robust customer and order management for sales tracking, and a responsive storefront for browsing bikes and servicing options.",
+    technologies: ["React", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
+    year: "2025",
+    githubUrl: "https://github.com/rafioul-hasan-58",
+    liveUrl: "https://speedx.vercel.app",
     featured: true
-  },
-  {
-    id: "proj-3",
-    title: "C Subset Compiler",
-    description: "A multi-pass compiler translating a C-like procedural programming language into optimized assembly code. Implemented lexical analysis, abstract syntax tree (AST) construction, and semantic verification.",
-    technologies: ["C++", "Flex", "Bison", "x86-64 Assembly"],
-    year: "2023",
-    githubUrl: "https://github.com/example-handle/c-subset-compiler",
-    liveUrl: undefined,
-    featured: false
   }
 ];
