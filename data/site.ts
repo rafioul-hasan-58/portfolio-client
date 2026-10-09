@@ -4,8 +4,8 @@ import { SiteConfig } from "@/types";
 export const siteConfig: SiteConfig = {
   name: "Rafioul Hasan Sourob",
   handle: "rafioulhasan",
-  title: "Software Engineer & Systems Researcher",
-  company: "Apex Tech Labs",
+  title: "Backend-Focused Full Stack Developer",
+  company: "MaxValid",
   bio: [
     "I am a software engineer focused on distributed systems, databases, and high-performance backend infrastructure. Currently, I work on scalable storage engines and vector retrieval systems.",
     "Previously, I engineered developer platforms and microservices handling millions of events daily. I hold a B.Sc. in Computer Science and Engineering.",
@@ -15,8 +15,8 @@ export const siteConfig: SiteConfig = {
   location: "San Francisco, CA",
   email: "rafioulhasan2@gmail.com",
   metadata: {
-    title: "Rafioul Hasan Sourob | Software Engineer & Researcher",
-    description: "Personal portfolio of Rafioul Hasan Sourob – Software Engineer specializing in backend systems, distributed databases, and high-scale architecture.",
+    title: "Rafioul Hasan Sourob | Backend-Focused Full Stack Developer",
+    description: "Personal portfolio of Rafioul Hasan Sourob – Backend-Focused Full Stack Developer specializing in backend systems, distributed databases, and high-scale architecture.",
     url: "https://example.com",
     ogImage: "/images/og-image.png",
     keywords: [
