@@ -1,10 +1,16 @@
-import React from "react";
+"use client";
+
+import React, { useState, useEffect } from "react";
 import { socialLinks } from "@/data/socials";
 import { siteConfig } from "@/data/site";
 import { Container } from "@/components/ui/Container";
 
 export function Footer() {
-  const currentYear = new Date().getFullYear();
+  const [year, setYear] = useState<number>(2025);
+
+  useEffect(() => {
+    setYear(new Date().getFullYear());
+  }, []);
 
   return (
     <footer className="w-full border-t border-[var(--border-color)] py-8 mt-16 transition-colors">
@@ -23,7 +29,7 @@ export function Footer() {
           ))}
         </div>
         <p className="mt-2 text-xs text-[var(--text-subtle)]">
-          &copy; {currentYear} {siteConfig.name}. All rights reserved.
+          &copy; {year} {siteConfig.name}. All rights reserved.
         </p>
       </Container>
     </footer>
