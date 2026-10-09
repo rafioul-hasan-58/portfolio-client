@@ -1,1 +1,71 @@
 @import "tailwindcss";
+
+:root {
+  --font-poppins: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --bg-primary: #ffffff;
+  --text-primary: #333333;
+  --text-heading: #111111;
+  --text-muted: #555555;
+  --text-subtle: #777777;
+  --link-color: #0066cc;
+  --link-hover: #004b99;
+  --border-color: #eeeeee;
+  --card-bg: #fafafa;
+  --code-bg: #f5f5f5;
+  --tag-bg: #f3f4f6;
+  --tag-text: #374151;
+}
+
+html.dark {
+  --bg-primary: #121212;
+  --text-primary: #d4d4d8;
+  --text-heading: #fafafa;
+  --text-muted: #a1a1aa;
+  --text-subtle: #71717a;
+  --link-color: #38bdf8;
+  --link-hover: #7dd3fc;
+  --border-color: #27272a;
+  --card-bg: #18181b;
+  --code-bg: #1e1e24;
+  --tag-bg: #27272a;
+  --tag-text: #e4e4e7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-poppins);
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  transition: background-color 0.2s ease, color 0.2s ease;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-link {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+.site-link:hover {
+  text-decoration: underline;
+}
+
+.border-theme {
+  border-color: var(--border-color);
+}
