@@ -38,11 +38,24 @@ export function TimelineItem({ item }: TimelineItemProps) {
       )}
 
       {item.highlights && item.highlights.length > 0 && (
-        <ul className="list-disc pl-5 space-y-1 text-[0.93rem] text-[var(--text-muted)]">
+        <ul className="list-disc pl-5 space-y-1 text-[0.93rem] text-[var(--text-muted)] mb-3">
           {item.highlights.map((highlight, idx) => (
             <li key={idx}>{highlight}</li>
           ))}
         </ul>
+      )}
+
+      {item.courses && item.courses.length > 0 && (
+        <div className="mt-3">
+          <p className="text-[0.95rem] font-semibold text-[var(--text-heading)] mb-1.5">
+            Notable Courses:
+          </p>
+          <ul className="list-disc pl-5 space-y-1 text-[0.93rem] text-[var(--text-muted)]">
+            {item.courses.map((course, idx) => (
+              <li key={idx}>{course}</li>
+            ))}
+          </ul>
+        </div>
       )}
     </article>
   );

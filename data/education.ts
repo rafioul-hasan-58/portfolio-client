@@ -12,6 +12,15 @@ export const educationData: EducationItem[] = [
     highlights: [
       "Computer Science & Technology",
       "Specializing in Backend Engineering, API Development & Distributed Systems"
+    ],
+    courses: [
+      "Computer Architecture",
+      "Application Development with Python",
+      "Application Development with Java",
+      "Operating Systems",
+      "Mathematics",
+      "Data Communication",
+      "Cyber Security & Ethics"
     ]
   },
   {

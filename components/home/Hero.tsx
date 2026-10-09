@@ -6,12 +6,12 @@ export function Hero() {
   return (
     <section className="mb-10">
       <div className="text-center mb-8">
-        <div className="inline-block relative w-[120px] h-[120px] rounded-full overflow-hidden mb-4 border border-[var(--border-color)] shadow-sm">
+        <div className="inline-block relative w-[160px] h-[160px] rounded-full overflow-hidden mb-5 bg-[var(--avatar-bg)] ring-2 ring-[var(--link-color)] shadow-md">
           <Image
             src={siteConfig.avatar}
             alt={siteConfig.name}
-            width={120}
-            height={120}
+            width={160}
+            height={160}
             priority
             className="w-full h-full object-cover object-top"
           />

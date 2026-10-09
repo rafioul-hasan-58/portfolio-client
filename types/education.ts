@@ -8,4 +8,5 @@ export interface EducationItem {
   grade?: string;
   description?: string;
   highlights?: string[];
+  courses?: string[];
 }

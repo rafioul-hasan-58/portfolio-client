@@ -19,6 +19,7 @@ export const themeConfig = {
       codeBg: "#f5f5f5",
       tagBg: "#f3f4f6",
       tagText: "#374151",
+      avatarBg: "#E8EEF5",
     },
     dark: {
       background: "#121212",
@@ -32,6 +33,7 @@ export const themeConfig = {
       codeBg: "#1e1e24",
       tagBg: "#27272a",
       tagText: "#e4e4e7",
+      avatarBg: "#1e293b",
     }
   }
 };
