@@ -2,8 +2,8 @@ import { SiteConfig } from "@/types";
 
 // TODO: replace with my info
 export const siteConfig: SiteConfig = {
-  name: "Alex Morgan",
-  handle: "alexmorgan",
+  name: "Rafioul Hasan Sourob",
+  handle: "rafioulhasan",
   title: "Software Engineer & Systems Researcher",
   company: "Apex Tech Labs",
   bio: [
@@ -15,8 +15,8 @@ export const siteConfig: SiteConfig = {
   location: "San Francisco, CA",
   email: "alex.morgan@example.com",
   metadata: {
-    title: "Alex Morgan | Software Engineer & Researcher",
-    description: "Personal portfolio of Alex Morgan – Software Engineer specializing in backend systems, distributed databases, and high-scale architecture.",
+    title: "Rafioul Hasan Sourob | Software Engineer & Researcher",
+    description: "Personal portfolio of Rafioul Hasan Sourob – Software Engineer specializing in backend systems, distributed databases, and high-scale architecture.",
     url: "https://example.com",
     ogImage: "/images/og-image.png",
     keywords: [
