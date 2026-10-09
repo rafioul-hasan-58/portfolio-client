@@ -17,8 +17,8 @@ export const projectsData: ProjectItem[] = [
     description: "An end-to-end management solution for bike retailers and workshops. Features real-time product listing and inventory control, robust customer and order management for sales tracking, and a responsive storefront for browsing bikes and servicing options.",
     technologies: ["React", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
     year: "2025",
-    githubUrl: "https://github.com/rafioul-hasan-58",
-    liveUrl: "https://speedx.vercel.app",
+    githubUrl: "https://github.com/rafioul-hasan-58/SpeedX-Server",
+    liveUrl: "https://speedx.sourob.com",
     featured: true
   }
 ];
