@@ -7,8 +7,8 @@ export const projectsData: ProjectItem[] = [
     description: "A comprehensive career growth and roadmap platform featuring an AI-powered resume extraction system, intelligent mentorship and gig matching capabilities, and built-in reflection and career progression tracking modules.",
     technologies: ["Next.js", "React", "Node.js", "Express.js", "AI Integration", "MongoDB", "Tailwind CSS"],
     year: "2025",
-    githubUrl: "https://github.com/rafioul-hasan-58",
-    liveUrl: "https://skillquix.vercel.app",
+    githubUrl: "https://github.com/rafioul-hasan-58/skillquix-server",
+    liveUrl: "https://www.skillquix.tech/",
     featured: true
   },
   {
