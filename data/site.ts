@@ -11,7 +11,7 @@ export const siteConfig: SiteConfig = {
     "My primary focus is backend development, system design, APIs, databases, and integrating AI into practical applications. I also enjoy working on frontend development to build complete, user-friendly products.",
     "Beyond tech, I’m interested in movies, anime, reading, and exploring new technologies."
   ],
-  avatar: "/images/avatar.svg",
+  avatar: "/images/profile.png",
   location: "Dhaka, Bangladesh",
   email: "rafioulhasan2@gmail.com",
   metadata: {

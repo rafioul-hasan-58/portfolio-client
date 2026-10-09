@@ -13,7 +13,7 @@ export function Hero() {
             width={120}
             height={120}
             priority
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover object-top"
           />
         </div>
         <h1 className="text-2xl sm:text-[1.8rem] font-semibold text-[var(--text-heading)] mb-1">
